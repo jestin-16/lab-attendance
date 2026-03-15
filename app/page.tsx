@@ -77,7 +77,7 @@ export default function AttendancePage() {
           </form>
 
           <p className="mt-8 text-lg text-slate-600">
-            {message || "Error fetching attendance counts."}
+            {message}
           </p>
         </section>
 
